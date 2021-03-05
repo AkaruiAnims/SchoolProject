@@ -7,27 +7,28 @@
         <meta charset="UTF-8">
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="Images/Mall_Logo.png" type="image/png">
     </head>
     <body>
             <header>
-                
+                Header
             </header>
             <nav>
-
+                Navigation
             </nav>
             <main>
                 <div id="I1">
-                    content
+                    div1
                 </div>
                 <div id="I2">
-                    content
+                    div2
                 </div>
                 <div id="I3">
-                    content
+                    div3
                 </div>
             </main>
             <footer>
-
+                Footer
             </footer>
             <script src="scripts.js"></script>
     </body>

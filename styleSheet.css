@@ -12,3 +12,19 @@
 #I1, #I2, #I3 {
     background-color: aqua;
 }
+
+#I1 {
+    position: absolute;
+    z-index: 1;
+    
+}
+
+#I2 {
+    position: absolute;
+    z-index: 2;
+}
+
+#I3 {
+    position: absolute;
+    z-index: 3;
+}
