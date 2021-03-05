@@ -1,0 +1,14 @@
+/*variables*/
+:root{
+        --Dark-Cyan:  #555B6E;
+        --Bege:           #FFD6BA;
+        --White:          #FAF9F9;
+        --Light-Cyan: #BEE3DB;
+        --Cyan:           #89B0AE;
+        --pos:               relative;
+}
+
+/*Index page*/
+#I1, #I2, #I3 {
+    background-color: aqua;
+}

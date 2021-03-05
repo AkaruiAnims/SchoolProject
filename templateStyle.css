@@ -1,0 +1,51 @@
+/*variables*/
+:root{
+        --Dark-Cyan:  #555B6E;
+        --Bege:           #FFD6BA;
+        --White:          #FAF9F9;
+        --Light-Cyan: #BEE3DB;
+        --Cyan:           #89B0AE;
+        --pos:               relative;
+}
+
+/*Template*/
+body{
+    background-color: var(--White);
+    font-size: 21px;
+}
+
+header{
+    position: var(--pos);
+    width: auto;
+    height: 5em;
+    padding: 0px 10px 0px 10px;
+    margin: -8px -8px 0px -8px;
+    background-color: var(--Cyan);
+}
+
+nav{
+    position: var(--pos);
+    width: auto;
+    height: 2em;
+    padding: 0px 10px 0px 10px;
+    margin: 0px -8px 0px -8px;
+    background-color: var(--White);
+}
+
+main{
+    position: var(--pos);
+    width: auto;
+    height: 50em;
+    padding: 0px 10px 0px 10px;
+    margin: 0px -8px 0px -8px;
+    background-color: var(--Light-Cyan);
+}
+
+footer{
+    position: var(--pos);
+    width: auto;
+    height: 6em;
+    padding: 0px 10px 0px 10px;
+    margin: 0px -8px -8px -8px;
+    background-color: var(--Dark-Cyan);
+}
