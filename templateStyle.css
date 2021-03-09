@@ -1,11 +1,13 @@
 /*variables*/
 :root{
+        --Dark:            #282b46;
         --Dark-Cyan:  #555B6E;
         --Bege:           #FFD6BA;
         --White:          #FAF9F9;
         --Light-Cyan: #BEE3DB;
         --Cyan:           #89B0AE;
         --pos:               relative;
+        --index:            0;
 }
 
 /*Template*/
@@ -15,21 +17,28 @@ body{
 }
 
 header{
-    position: var(--pos);
-    width: auto;
-    height: 5em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
     padding: 0px 10px 0px 10px;
     margin: -8px -8px 0px -8px;
-    background-color: var(--Cyan);
+    background-color: var(--Dark);
+    z-index: 3;
+    top: 5px;
+    color: var(--White);
 }
 
 nav{
-    position: var(--pos);
-    width: auto;
+    position: fixed;
+    width: 100%;
     height: 2em;
     padding: 0px 10px 0px 10px;
     margin: 0px -8px 0px -8px;
-    background-color: var(--White);
+    background-color: var(--Dark-Cyan);
+    z-index: 2;
+    top: 2.8em;
+    box-shadow: -1px 1px 5px black;
+    color: var(--White);
 }
 
 main{
@@ -38,7 +47,9 @@ main{
     height: 50em;
     padding: 0px 10px 0px 10px;
     margin: 0px -8px 0px -8px;
-    background-color: var(--Light-Cyan);
+    background-color: var(--White);
+    z-index: var(--index);
+    top: 4.5em;
 }
 
 footer{
@@ -46,6 +57,7 @@ footer{
     width: auto;
     height: 6em;
     padding: 0px 10px 0px 10px;
-    margin: 0px -8px -8px -8px;
-    background-color: var(--Dark-Cyan);
+    margin: 0px -10px -8px -10px;
+    background-color: var(--Dark);
+    color: var(--White);
 }

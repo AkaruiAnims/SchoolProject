@@ -1,30 +1,41 @@
 /*variables*/
 :root{
+        --Dark:            #282b46;
         --Dark-Cyan:  #555B6E;
         --Bege:           #FFD6BA;
         --White:          #FAF9F9;
         --Light-Cyan: #BEE3DB;
         --Cyan:           #89B0AE;
         --pos:               relative;
+        --index:            0;
 }
 
 /*Index page*/
-#I1, #I2, #I3 {
-    background-color: aqua;
-}
-
 #I1 {
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    z-index: var(--index);
+    background-image: url("Images/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto; 
+    height: 25em; 
+    margin: 0px -10px 0px -10px;
     
 }
 
 #I2 {
-    position: absolute;
-    z-index: 2;
+    position: relative;
+    background-image: linear-gradient(to bottom  ,rgba(255, 211, 130, 0.411),rgba(137, 176, 174, 1));
+    z-index: 1;
+    width: auto; 
+    height: 100%; 
+    margin: -7em -10px 0px -10px;
+    
 }
 
 #I3 {
-    position: absolute;
-    z-index: 3;
+    position: relative;
+    width: auto;
+    height: 100%;
+    z-index: var(--index);
 }

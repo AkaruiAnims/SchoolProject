@@ -16,20 +16,19 @@
             <nav>
                 Navigation
             </nav>
+
             <main>
-                <div id="I1">
-                    div1
-                </div>
+                <div id="I1"></div>
                 <div id="I2">
-                    div2
+                    <div id="I3">
+                        
+                    </div>
                 </div>
-                <div id="I3">
-                    div3
-                </div>
-            </main>
-            <footer>
+                
+                <footer>
                 Footer
             </footer>
+            </main>
             <script src="scripts.js"></script>
     </body>
 </html>
