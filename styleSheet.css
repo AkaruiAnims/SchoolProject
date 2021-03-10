@@ -25,11 +25,11 @@
 
 #I2 {
     position: relative;
-    background-image: linear-gradient(to bottom  ,rgba(255, 211, 130, 0.411),rgba(137, 176, 174, 1));
+    background-image: linear-gradient(to bottom  ,rgba(241, 239, 235, 0.411),rgba(137, 176, 174, 1));
     z-index: 1;
     width: auto; 
     height: 100%; 
-    margin: -7em -10px 0px -10px;
+    margin: -8em -10px 0px -10px;
     
 }
 
@@ -39,3 +39,41 @@
     height: 100%;
     z-index: var(--index);
 }
+
+#mid{
+    position: relative;
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-column-gap:auto ;
+    grid-template-areas: 
+    "header header2 header3 header4";
+    overflow-x: auto;
+    background-color: var(--White);
+    margin-top:8em;
+}
+#mid div, .parent_main div{
+    background-color:var(--White);
+    border:0.5px solid black;
+    width: 265px;
+    height: 275px;
+    padding: 5px;
+    margin: 10px 10px;
+}
+.child_main1_mid{grid-area: header;}
+.child_main2_mid{grid-area: header2;}
+.child_main3_mid{grid-area: header3;}
+.child_main4_mid{grid-area: header4;}
+
+.parent_main{
+    /* CSS Grid on Main page parent */
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+    "header header2 header3 header4";
+    overflow-x: auto;
+}
+.child_main1{grid-area: header;}
+.child_main2{grid-area: header2;}
+.child_main3{grid-area: header3;}
+.child_main4{grid-area: header4;}

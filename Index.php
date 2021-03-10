@@ -11,17 +11,36 @@
     </head>
     <body>
             <header>
-                Header
+                <table><tr>
+                    <td><img src="Images/PlaceHolder.png" width="10" height="10"></td>
+                    <td><form>
+                        <input type="field">
+                    </form></td>
+                    <td>user thingy</td>
+                     <td>cart</td>
+                </tr></table>
             </header>
+
             <nav>
-                Navigation
+                <button></button>
             </nav>
 
             <main>
                 <div id="I1"></div>
                 <div id="I2">
                     <div id="I3">
-                        
+                        <div class="parent_main">
+                            <div class="child_main1">a</div>
+                            <div class="child_main2">b</div>
+                            <div class="child_main3">c</div>
+                            <div class="child_main4">d</div>
+                        </div>        
+                        <section id="mid">
+                                <div class="child_main_mid1">a</div>
+                                <div class="child_main2_mid">b</div>
+                                <div class="child_main3_mid">c</div>
+                                <div class="child_main4_mid">d</div>
+                            </section>                
                     </div>
                 </div>
                 
