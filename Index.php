@@ -10,21 +10,7 @@
         <link rel="icon" href="Images/Mall_Logo.png" type="image/png">
     </head>
     <body>
-            <header>
-                <table><tr>
-                    <td><img src="Images/PlaceHolder.png" width="10" height="10"></td>
-                    <td><form>
-                        <input type="field">
-                    </form></td>
-                    <td>user thingy</td>
-                     <td>cart</td>
-                </tr></table>
-            </header>
-
-            <nav>
-                <button></button>
-            </nav>
-
+           <?php include_once ("Modules/Navmod_client.php");?>
             <main>
                 <div id="I1"></div>
                 <div id="I2">

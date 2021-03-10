@@ -50,7 +50,7 @@
     "header header2 header3 header4";
     overflow-x: auto;
     background-color: var(--White);
-    margin-top:8em;
+    margin-top:10em;
 }
 #mid div, .parent_main div{
     background-color:var(--White);
