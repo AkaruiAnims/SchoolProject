@@ -1,9 +1,9 @@
  <header id="header">
-            <a class="Logo"><button></button></a>
-            <form method="POST" class="Search">
+            <a href="Index.php" class="Logo"><button></button></a>
+            <form method="POST" class="Search" action="Result.php">
                 <input type="field">
              </form>
-             <a class="User"><button><img alt="User Page"></button></a>
-            <a class="Cart"><button><img alt="User Cart"></button></a>
+             <a href="Userpage.php" class="User"><button><img alt="User Page"></button></a>
+            <a href="Cart.php" class="Cart"><button><img alt="User Cart"></button></a>
 </header>
 <nav id="nav"></nav>

@@ -14,7 +14,7 @@
 #I1 {
     position: relative;
     z-index: var(--index);
-    background-image: url("Images/placeholder.jpg");
+    background-image: url("Images/PlaceHolder.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: auto; 
@@ -34,7 +34,7 @@
 }
 
 #I3 {
-    position: relative;
+    position: var(--pos);
     width: auto;
     height: 100%;
     z-index: var(--index);
@@ -77,3 +77,14 @@
 .child_main2{grid-area: header2;}
 .child_main3{grid-area: header3;}
 .child_main4{grid-area: header4;}
+
+/* No clue */
+.Grid{
+    display: grid;
+    grid-template-areas: 
+    "Header1 Header2 Header3"
+    "Side1 Main Side2"
+    "Footer1 Footer2 Footer3";
+    margin: 0;
+    padding: 0;
+}

@@ -32,11 +32,24 @@ body{
     grid-column-gap:auto ;
     grid-template-areas: 
     "Logo Search User Cart";
+    align-items: center;
 }
-.Logo{grid-area: Logo; margin-top: 5px;} .Logo button{ background-image: url("Images/PlaceHolder.png"); width: 175px; height:55px;}
+.Logo{grid-area: Logo; margin-top: 5px;} 
+.Logo button{ 
+    background-image: url("Images/LightMall.png"); 
+    width: 175px; height:55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--Light-Cyan);
+}
 .Search{grid-area: Search; margin-top: 15px;}
-.User{grid-area: User;}
-.Cart{grid-area: Cart;}
+.User{
+    grid-area: User;
+}
+.Cart{
+    grid-area: Cart;
+}
 
 #nav{
     position: fixed;
@@ -75,4 +88,23 @@ footer{
     margin: 0px -10px -8px -10px;
     background-color: var(--Dark);
     color: var(--White);
+}
+
+/* Results Page*/
+.Catalog{
+    position: var(--pos);
+    height: 100%;
+    width: 150px;
+    margin-left: -10px;
+    margin-bottom: -25px;
+    background-color: var(--Dark-Cyan);
+    padding-left: 2.5px;
+}
+
+.results{
+    position: var(--pos);
+    bottom: 97%;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
 }
