@@ -11,17 +11,6 @@
     </head>
     <body>
            <?php include_once ("Modules/Navmod_client.php");?>
-            <main>
-                <div class="Catalog">
-                    catalog info
-                </div>
-                <div class="results">
-                    info
-                </div>
-                <footer>
-                Footer
-            </footer>
-            </main>
-            <script src="scripts.js"></script>
+            
     </body>
 </html>

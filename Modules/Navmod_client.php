@@ -1,9 +1,16 @@
- <header id="header">
-            <a href="Index.php" class="Logo"><button></button></a>
-            <form method="POST" class="Search" action="Result.php">
-                <input type="field">
-             </form>
-             <a href="Userpage.php" class="User"><button><img alt="User Page"></button></a>
-            <a href="Cart.php" class="Cart"><button><img alt="User Cart"></button></a>
+<header class="">
+    <!-- Navigation -->
+        <div class="heading">
+        <a href="Index.php"></a>
+        <form action="Result.php">
+        <input type="input" class="searchbar">
+        </form>
+        <a href="Userpage.php"></a>
+        <a href="Cart.php"></a>
+        </div>
+
+    <!-- Bottom Bar -->
+        <nav class="bar">
+        just the bottom bar
+        </nav>
 </header>
-<nav id="nav"></nav>

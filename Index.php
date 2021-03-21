@@ -10,30 +10,22 @@
         <link rel="icon" href="Images/Mall_Logo.png" type="image/png">
     </head>
     <body>
+    <!-- navigation import -->
            <?php include_once ("Modules/Navmod_client.php");?>
-            <main>
-                <div id="I1"></div>
-                <div id="I2">
-                    <div id="I3">
-                        <div class="parent_main">
-                            <div class="child_main1">a</div>
-                            <div class="child_main2">b</div>
-                            <div class="child_main3">c</div>
-                            <div class="child_main4">d</div>
-                        </div>        
-                        <section id="mid">
-                                <div class="child_main_mid1">a</div>
-                                <div class="child_main2_mid">b</div>
-                                <div class="child_main3_mid">c</div>
-                                <div class="child_main4_mid">d</div>
-                            </section>                
-                    </div>
-                </div>
-                
-                <footer>
-                Footer
-            </footer>
-            </main>
-            <script src="scripts.js"></script>
+
+    <!-- Background Image -->
+        <div class="pimgM"> background image</div>
+
+    <!-- main container -->
+        <div class="container">
+            <div class="productDisplay">
+                top content
+            </div>
+
+            <div class="innerContainer">
+                bottom content
+            </div>
+        </div>
+        <?php include_once ("Modules/Footer.php");?>
     </body>
 </html>

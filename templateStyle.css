@@ -1,4 +1,11 @@
 /*variables*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 :root{
         --Dark:            #282b46;
         --Dark-Cyan:  #555B6E;
@@ -6,105 +13,5 @@
         --White:          #FAF9F9;
         --Light-Cyan: #BEE3DB;
         --Cyan:           #89B0AE;
-        --pos:               relative;
         --index:            0;
-}
-
-/*Template*/
-body{
-    background-color: var(--White);
-    font-size: 21px;
-}
-
-#header{
-    position: fixed;
-    width: 100%;
-    height: 3em;
-    padding: 0px 10px 0px 10px;
-    margin: -8px -8px 0px -8px;
-    background-color: var(--Dark);
-    z-index: 3;
-    top: 5px;
-    color: var(--White);
-    max-width: 100%;
-    max-height: 100%;
-    display: grid;
-    grid-column-gap:auto ;
-    grid-template-areas: 
-    "Logo Search User Cart";
-    align-items: center;
-}
-.Logo{grid-area: Logo; margin-top: 5px;} 
-.Logo button{ 
-    background-image: url("Images/LightMall.png"); 
-    width: 175px; height:55px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: var(--Light-Cyan);
-}
-.Search{grid-area: Search; margin-top: 15px;}
-.User{
-    grid-area: User;
-}
-.Cart{
-    grid-area: Cart;
-}
-
-#nav{
-    position: fixed;
-    width: 100%;
-    height: 2em;
-    padding: 0px 10px 0px 10px;
-    margin: 0px -8px 0px -8px;
-    background-color: var(--Dark-Cyan);
-    z-index: 2;
-    top: 2.8em;
-    box-shadow: -1px 1px 5px black;
-    color: var(--White);
-    grid-column-gap:auto ;
-    grid-template-areas: 
-    "";
-}
-
-.nav img{width:50px; height:25px; border-radius: 20px;}
-
-main{
-    position: var(--pos);
-    width: auto;
-    height: 50em;
-    padding: 0px 10px 0px 10px;
-    margin: 0px -8px 0px -8px;
-    background-color: var(--White);
-    z-index: var(--index);
-    top: 4.5em;
-}
-
-footer{
-    position: var(--pos);
-    width: auto;
-    height: 6em;
-    padding: 0px 10px 0px 10px;
-    margin: 0px -10px -8px -10px;
-    background-color: var(--Dark);
-    color: var(--White);
-}
-
-/* Results Page*/
-.Catalog{
-    position: var(--pos);
-    height: 100%;
-    width: 150px;
-    margin-left: -10px;
-    margin-bottom: -25px;
-    background-color: var(--Dark-Cyan);
-    padding-left: 2.5px;
-}
-
-.results{
-    position: var(--pos);
-    bottom: 97%;
-    margin-left: 150px;
-    align-items: center;
-    justify-content: center;
 }
