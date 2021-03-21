@@ -1,0 +1,67 @@
+:root{
+        --Dark:            #282b46;
+        --Dark-Cyan:  #555B6E;
+        --Bege:           #FFD6BA;
+        --White:          #FAF9F9;
+        --Light-Cyan: #BEE3DB;
+        --Cyan:           #89B0AE;
+        --index:            0;
+}
+/* Extra styling */
+
+.topContainer{
+    width: auto;
+    height: 27em;
+}
+
+.lowerContainer{
+    width: auto;
+    height: 35em;
+    background-color: var(--Light-Cyan);
+}
+
+.productCard{
+    background-color: var(--White);
+    width: 275px;
+    height: 315px;
+    padding: 15px;
+    margin: 0 5px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px black;
+    transition: 3ms ease-in;
+    overflow: visible;
+    font-size: 20px;
+}
+
+.productCard:hover{
+   margin-bottom: 50px;
+}
+
+.container .flex{
+    justify-content: space-between;
+    margin: 0px 5px;
+    padding: 15px;
+}
+
+.prodimg{
+    position: relative;
+    float: top;
+    width: auto;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.proddesc{
+    position: relative;
+    font-size: 16px;
+}
+
+.topContainer .productCard{
+    margin-bottom: 50vh;
+    z-index: 3;
+    transition: 3ms ease-in;
+}
+
+.topContainer .productCard:hover{
+    margin-bottom: 55vh;
+}

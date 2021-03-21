@@ -1,16 +1,15 @@
-<header class="">
+<header class="header">
     <!-- Navigation -->
-        <div class="heading">
-        <a href="Index.php"></a>
-        <form action="Result.php">
-        <input type="input" class="searchbar">
-        </form>
-        <a href="Userpage.php"></a>
-        <a href="Cart.php"></a>
+        <div class="heading flex">
+            <a href="Index.php" class="logo">Mall.</a>
+                <form action="Result.php" class="form">
+                    <input type="input" class="input" placeholder="Search... ">
+                </form>
+                <ul>
+                    <li><a href="Userpage.php">User</a></li> <!--(replace with svg)-->
+                    <li><a href="Cart.php">Cart</a></li> <!--(replace with svg)-->
+                </ul>
         </div>
-
-    <!-- Bottom Bar -->
-        <nav class="bar">
-        just the bottom bar
-        </nav>
 </header>
+<!-- Bottom Bar -->
+<nav class="bar"></nav>

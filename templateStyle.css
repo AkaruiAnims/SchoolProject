@@ -15,3 +15,130 @@
         --Cyan:           #89B0AE;
         --index:            0;
 }
+/* Template */
+body{
+    background-color: var(--Bege);
+}
+
+footer{
+    position: relative;
+    background-color: var(--Dark);
+    color: white;
+    width: auto;
+    height: 15em;
+}
+
+.header{
+    position: sticky;
+    width: auto;
+    height: 4em;
+    background-color: var(--Dark);
+    top: 0;
+    left: 0;
+    overflow: visible;
+    z-index: 5;
+}
+
+.heading{
+    width: auto;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.bar{
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    background-color: var(--Dark-Cyan);
+    z-index: 5;
+}
+
+a{
+    text-decoration: none;
+    color: var(--Dark);
+}
+
+.header .flex{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.logo{
+    font-size: 50px;
+    width: 150px;
+    text-align: center;
+    text-decoration:wavy;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header ul{
+    display: flex;
+}
+
+.header a{
+    color: var(--White);
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.input{
+    width: 175px;
+    position: relative;
+    border: none;
+    border-bottom: 1px gray solid;
+    background-color: transparent;
+}
+
+.header .input{
+    font-size: 16px;
+    color: var(--White);
+    width: 250px;
+    text-align: center;
+    border-bottom: 1px var(--White) solid;
+    transition: 500ms ease-in-out;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px var(--White) solid;
+    border-radius: 25px;
+}
+
+.pimg{
+    position: relative;
+    background-image: url("Images/PlaceHolder.png");
+    width: auto;
+    height: 100%;
+    background-position: center;
+    opacity: 0.70;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg{
+    position: relative;
+    background-image: url("Images/PlaceHolder.png");
+    width: auto;
+    height: 75vh;
+    opacity: 1;
+}
+
+.container{
+    width: auto;
+}

@@ -14,18 +14,48 @@
            <?php include_once ("Modules/Navmod_client.php");?>
 
     <!-- Background Image -->
-        <div class="pimgM"> background image</div>
+        <div class="bg pimg"></div>
 
     <!-- main container -->
         <div class="container">
-            <div class="productDisplay">
-                top content
+            <div class="topContainer flex">
+                <div class="productCard">
+                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    Lorem Ipsum         <hr>
+                    <div class="proddesc"> Lorem</div>         
+                </div>
+                <div class="productCard">
+                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    Lorem Ipsum    <hr>
+                    <div class="proddesc"> Lorem</div>           
+                </div>
+                <div class="productCard">
+                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    Lorem Ipsum         <hr>       
+                    <div class="proddesc"> Lorem</div>  
+                </div>
             </div>
 
-            <div class="innerContainer">
-                bottom content
+            <div class="lowerContainer flex">
+                <div class="productCard">
+                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    Lorem Ipsum                <hr>
+                    <div class="proddesc"> Lorem</div>  
+                </div>
+                <div class="productCard">
+                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    Lorem Ipsum              <hr>
+                    <div class="proddesc"> Lorem</div>    
+                </div>
+                <div class="productCard">
+                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    Lorem Ipsum                <hr>
+                    <div class="proddesc"> Lorem</div>  
+                </div>
             </div>
         </div>
+
+        <!-- Footer -->
         <?php include_once ("Modules/Footer.php");?>
     </body>
 </html>
