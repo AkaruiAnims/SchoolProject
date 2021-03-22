@@ -1,3 +1,4 @@
+<?php @include_once "Modules/connection.php"; ?>
 <!Doctype html>
 <html>
     <head>
@@ -10,7 +11,17 @@
         <link rel="icon" href="Images/Mall_Logo.png" type="image/png">
     </head>
     <body>
-           <?php include_once ("Modules/Navmod_client.php");?>
+           <div class="loginImg">
+               <p class="loginText">Mall.</p>
+           </div>
             
+           <div class="loginForm">
+                <form>
+                    <input type="input" class="input" placeholder="username..."><br>
+                    <input type="input" class="input" placeholder="password..."><br>
+                    <input type="submit" class="button submit" value="Login">
+                </form>
+                <a href="Register.php" class="bottomRight">Register?</a>
+           </div>
     </body>
 </html>

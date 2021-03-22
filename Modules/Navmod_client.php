@@ -1,3 +1,8 @@
+<?php 
+    @include_once "connection.php";
+    @include_once "external.php";
+?>
+
 <header class="header">
     <!-- Navigation -->
         <div class="heading flex">

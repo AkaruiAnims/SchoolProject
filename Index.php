@@ -20,17 +20,17 @@
         <div class="container">
             <div class="topContainer flex">
                 <div class="productCard">
-                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
                     Lorem Ipsum         <hr>
                     <div class="proddesc"> Lorem</div>         
                 </div>
                 <div class="productCard">
-                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
                     Lorem Ipsum    <hr>
                     <div class="proddesc"> Lorem</div>           
                 </div>
                 <div class="productCard">
-                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
                     Lorem Ipsum         <hr>       
                     <div class="proddesc"> Lorem</div>  
                 </div>
@@ -38,17 +38,17 @@
 
             <div class="lowerContainer flex">
                 <div class="productCard">
-                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
                     Lorem Ipsum                <hr>
                     <div class="proddesc"> Lorem</div>  
                 </div>
                 <div class="productCard">
-                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
                     Lorem Ipsum              <hr>
                     <div class="proddesc"> Lorem</div>    
                 </div>
                 <div class="productCard">
-                    <img class="prodimg" src="Images/PlaceHolder.png" alt="content image">
+                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
                     Lorem Ipsum                <hr>
                     <div class="proddesc"> Lorem</div>  
                 </div>

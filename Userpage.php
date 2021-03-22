@@ -10,7 +10,10 @@
         <link rel="icon" href="Images/Mall_Logo.png" type="image/png">
     </head>
     <body>
+        <!-- navigation -->
            <?php include_once ("Modules/Navmod_client.php");?>
             
+        <!-- Footer -->
+        <?php include_once ("Modules/Footer.php");?>
     </body>
 </html>

@@ -1,3 +1,4 @@
+<?php @include_once "Modules/connection.php"; ?>
 <!Doctype html>
 <html>
     <head>
@@ -10,7 +11,21 @@
         <link rel="icon" href="Images/Mall_Logo.png" type="image/png">
     </head>
     <body>
-           <?php include_once ("Modules/Navmod_client.php");?>
-            
+            <div class="register">
+                <div class="container flex">
+                    <section>
+                        Logo
+                    </section>
+
+                    <section>
+                        Nav
+                    </section>
+
+                    <section>
+                        Main
+                    </section>
+                </div>    
+            </div>
+            <?php @include_once "Modules/Footer.php" ?>
     </body>
 </html>

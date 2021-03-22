@@ -49,6 +49,7 @@
     width: auto;
     height: 100px;
     border-radius: 5px;
+    transition: 100ms ease-in;
 }
 
 .proddesc{
@@ -64,4 +65,24 @@
 
 .topContainer .productCard:hover{
     margin-bottom: 55vh;
+}
+
+.productCard .prodimg:hover{
+    filter: brightness(50%);
+}
+
+.button{
+    border: none;
+    background-color: var(--White);
+    border-radius: 5px;
+    width: 4em;
+    height: 2em;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.submit{
+    margin: 5px 15px 0 0 ;
+    height:2em ;
 }

@@ -10,18 +10,10 @@
         <link rel="icon" href="Images/Mall_Logo.png" type="image/png">
     </head>
     <body>
+        <!-- navigation -->
            <?php include_once ("Modules/Navmod_client.php");?>
-            <main>
-                <div class="Catalog">
-                    catalog info
-                </div>
-                <div class="results">
-                    info
-                </div>
-                <footer>
-                Footer
-            </footer>
-            </main>
-            <script src="scripts.js"></script>
+
+        <!-- Footer -->
+        <?php include_once ("Modules/Footer.php");?>
     </body>
 </html>
