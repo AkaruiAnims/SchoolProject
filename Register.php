@@ -13,16 +13,25 @@
     <body>
             <div class="register">
                 <div class="container flex">
-                    <section>
+                    <section class="top">
                         Logo
                     </section>
 
-                    <section>
+                    <section class="nav">
                         Nav
                     </section>
 
-                    <section>
+                    <section class="main">
+                        <form action="Login.php">
                         Main
+                    </section>
+
+                    <section class="container">
+                        <ul class="ul flex">
+                            <li class="prev"><a href="Login.php" class="button buttonLeft">Back</a></li>
+                            <li class="next"><input type="submit" value="Register" class="button buttonRight"></li>
+                        </ul>
+                        </form>
                     </section>
                 </div>    
             </div>

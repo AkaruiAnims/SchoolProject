@@ -11,8 +11,8 @@
                     <input type="input" class="input" placeholder="Search... ">
                 </form>
                 <ul>
-                    <li><a href="Userpage.php">User</a></li> <!--(replace with svg)-->
-                    <li><a href="Cart.php">Cart</a></li> <!--(replace with svg)-->
+                    <li><a href="Userpage.php" class="userIMG">User</a></li> <!--(replace with svg)-->
+                    <li><a href="Cart.php" class="cartIMG">Cart</a></li> <!--(replace with svg)-->
                 </ul>
         </div>
 </header>

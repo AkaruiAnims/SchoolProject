@@ -12,7 +12,11 @@
     <body>
         <!-- navigation -->
            <?php include_once ("Modules/Navmod_client.php");?>
-            
+            <div class="user container main grid">
+                <section class="spacing-1 img"></section><section class="spacing-1 text">greeting</section>
+                <section class="spacing-1 side sidebar"> side</section>
+                <section class="spacing-1 main content">content</section>
+            </div>
         <!-- Footer -->
         <?php include_once ("Modules/Footer.php");?>
     </body>
