@@ -10,7 +10,20 @@
         <link rel="icon" href="Images/Mall_Logo.png" type="image/png">
     </head>
     <body>
-           <?php include_once ("Modules/Navmod_client.php");?>
-            
+        <!-- navigation -->
+           <?php include_once ("Modules/Navmod_admin.php");?>
+
+           <div class="Admin main container">
+               <div class="containerTop flex">
+                    <a href="Productedit.php" class="linkCard flex "><i>Product edit</i></a>
+                    <a href="Categoryedit.php" class="linkCard flex "><i>Category edit</i></a>
+               </div>
+               <div class="containerLower flex">
+                    <a href="Sessionmonitor.php" class="linkCard flex "><i>Sessions</i></a>
+                    <a href="Useredit.php" class="linkCard flex "><i>Worker/Client edit</i></a>
+               </div>
+           </div>
+        <!-- Footer -->
+        <?php include_once ("Modules/Footer.php");?>
     </body>
 </html>

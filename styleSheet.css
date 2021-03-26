@@ -157,3 +157,16 @@
     background-color: red;
     color: var(--White);
 }
+
+.svg{
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.Admin{
+    position: relative;
+    margin-top: 50px;
+    height: 100vh;
+}

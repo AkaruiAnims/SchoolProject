@@ -11,7 +11,7 @@
     </head>
     <body>
         <!-- navigation -->
-           <?php include_once ("Modules/Navmod_client.php");?>
+           <?php include_once ("Modules/Navmod_admin.php");?>
             
         <!-- Footer -->
         <?php include_once ("Modules/Footer.php");?>

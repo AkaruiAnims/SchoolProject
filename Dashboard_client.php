@@ -1,3 +1,4 @@
+<?php include_once ("Modules/connection.php"); ?>
 <!Doctype html>
 <html>
     <head>
@@ -11,7 +12,13 @@
     </head>
     <body>
         <!-- navigation -->
-           <?php include_once ("Modules/Navmod_client.php");?>
+           <?php 
+           if($_SESSION['Rank'] == "Admin"){
+            include_once ("Modules/Navmod_admin.php");
+           }else{
+           include_once ("Modules/Navmod_client.php");
+        }
+           ?>
             <div class="user container main grid">
                 <section class="spacing-1 img"></section><section class="spacing-1 text">
 
