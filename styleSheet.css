@@ -148,3 +148,12 @@
     background-color: var(--White);
     max-height: 50vh;
 }
+
+.logOut{
+    position: relative;
+    margin: 0;
+    width: 14.6vw;
+    top: 50vh;
+    background-color: red;
+    color: var(--White);
+}

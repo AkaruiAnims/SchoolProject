@@ -11,7 +11,13 @@
                     <input type="input" class="input" placeholder="Search... ">
                 </form>
                 <ul>
-                    <li><a href="Userpage.php" class="userIMG">User</a></li> <!--(replace with svg)-->
+                    <?php
+                    if( isset($_SESSION['Logged_in'])){
+                   echo "<li><a href="."Dashboard_client.php"." class="."userIMG".">User</a></li> <!--(replace with svg)-->";
+                    }else{
+                   echo "<li><a href="."Login.php"." class="."userIMG".">Login</a></li> <!--(replace with svg)-->";
+                    }
+                    ?>
                     <li><a href="Cart.php" class="cartIMG">Cart</a></li> <!--(replace with svg)-->
                 </ul>
         </div>

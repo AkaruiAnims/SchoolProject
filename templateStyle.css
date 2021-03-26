@@ -211,6 +211,10 @@ body .flex{
     color: var(--White);
 }
 
+.loginText{
+    color:var(--White);
+}
+
 .bottomRight{
     margin: 25px 0 0 450px;
     color: var(--White);
