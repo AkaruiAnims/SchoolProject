@@ -170,3 +170,20 @@
     margin-top: 50px;
     height: 100vh;
 }
+
+.maxWidth{
+    width: 100vw;
+}
+
+.maxHeight{
+    height: 100vh;
+}
+
+.form{
+        max-width: 25vw;
+        padding: 0 5px;
+}
+
+.form:focus{
+        border-radius: 0;
+}
