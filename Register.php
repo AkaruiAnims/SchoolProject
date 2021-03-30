@@ -18,7 +18,7 @@
                     <section class="nav"></section>
 
                     <section class="main">
-                        <form>
+                        <form method="POST">
                         <table cellspacing="50" class="flex">
                             <tr>
                             <td><lable>Email: </lable></td>
@@ -45,9 +45,21 @@
                 </div>    
             </div>
             <?php 
-                if(isset($_POST['Register'])){
-                    $stmt = 'SELECT ';
-                }
+                try {
+                        if (isset($_POST['Register']))
+                    {    
+                        $stmt = $connection->prepare("INSERT INTO users (Username,Password,Email) VALUES (?,?,?)");
+  
+                        $stmt->execute(array($_POST['Username'],$_POST['Password'],$_POST['Email']));
+                        
+                    header('Location: Completed.php');
+                        }}
+
+                    catch(PDOException $e)
+                        {
+                        echo "Error: " . $e->getMessage();
+                        }
+                    $conn = null;
             ?>
             <?php @include_once "Modules/Footer.php" ?>
     </body>

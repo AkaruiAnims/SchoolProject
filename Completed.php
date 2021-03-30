@@ -11,5 +11,6 @@
     </head>
     <body>
         <h1>Registration Complete</h1>
+        <a href="Login.php">Return home</a>
     </body>
 </html>

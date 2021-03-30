@@ -17,20 +17,21 @@
         <div class="bg pimg"></div>
 
     <!-- main container -->
+    <form method="POST" action="Product.php">
         <div class="container">
             <div class="topContainer flex">
                 <div class="productCard">
-                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
+                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum         <hr>
                     <div class="proddesc"> Lorem</div>         
                 </div>
                 <div class="productCard">
-                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
+                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum    <hr>
                     <div class="proddesc"> Lorem</div>           
                 </div>
                 <div class="productCard">
-                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
+                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum         <hr>       
                     <div class="proddesc"> Lorem</div>  
                 </div>
@@ -38,23 +39,23 @@
 
             <div class="lowerContainer flex">
                 <div class="productCard">
-                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
+                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum                <hr>
                     <div class="proddesc"> Lorem</div>  
                 </div>
                 <div class="productCard">
-                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
+                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum              <hr>
                     <div class="proddesc"> Lorem</div>    
                 </div>
                 <div class="productCard">
-                    <a href="Product.php"><img class="prodimg" src="Images/PlaceHolder.png" alt="content image"></a>
+                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum                <hr>
                     <div class="proddesc"> Lorem</div>  
                 </div>
             </div>
         </div>
-
+    </form>
         <!-- Footer -->
         <?php include_once ("Modules/Footer.php");?>
     </body>

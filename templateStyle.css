@@ -159,10 +159,13 @@ body .flex{
     position: relative;
     background-color: var(--Cyan);
     margin-top: 2em;
-    height: 75vh;
-    width: 200px;
+    max-height: 75vh;
+    height: auto;
+    width: 225px;
     min-width: 200px;
     border-radius: 5px;
+    z-index: 4;
+    overflow-y: scroll;
 }
 
 .midContainer{

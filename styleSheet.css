@@ -187,3 +187,23 @@
 .form:focus{
         border-radius: 0;
 }
+
+.cardButton{
+    border: none;
+    background-image: url("Images/PlaceHolder.png");
+    position: relative;
+    float: top;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    transition: 100ms ease-in;
+    margin: 5px;
+    padding: 5px;
+    color: transparent;
+    filter: brightness(30%);
+    cursor: pointer;
+}
+
+.cardButton:hover{
+    filter: brightness(50%);
+}
