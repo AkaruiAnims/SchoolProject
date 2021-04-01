@@ -207,3 +207,60 @@
 .cardButton:hover{
     filter: brightness(50%);
 }
+
+.product{
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 35px;
+    padding: 5px;
+    text-align: left;
+}
+
+.prodImg{
+    position: relative;
+    float: top left;
+    width: auto;
+    height: 13rem;
+    border-radius: 5px;
+    transition: 100ms ease-in;
+}
+
+.prodText{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.prodReview{
+    border-top: 1.5px solid var(--Dark-Cyan);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 25%;
+}
+
+.productButtons{
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    z-index: 4;
+    width: auto;
+    top: 13%;
+    left: 55%;
+}
+
+.productSubmit{
+    border: 1.5px solid var(--Dark);
+    border-radius: 5px;
+    background-color: var(--Light-Cyan);
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+}
+
+.overflowY{
+    overflow-y: scroll;
+    max-height: 90vh;
+}
+

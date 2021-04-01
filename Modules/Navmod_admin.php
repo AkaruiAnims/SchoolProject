@@ -7,8 +7,8 @@
     <!-- Navigation -->
         <div class="heading flex">
             <a href="Dashboard_staff.php" class="logo">Mall.</a>
-                <form action="Result.php" class="form">
-                    <input type="input" class="input" placeholder="Search... ">
+                <form class="form" method="POST">
+                    <input type="input" class="input" placeholder="Search... " name="search">
                 </form>
                 <ul>
                     <?php

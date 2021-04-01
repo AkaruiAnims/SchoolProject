@@ -292,3 +292,15 @@ body .flex{
     align-items: center;
     justify-items: center;
 }
+
+/* Cart page */
+.cartProd{
+    background-color: var(--White);
+    height: auto;
+    max-height: 115px;
+    width: 85vw;
+    border-radius:5px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}

@@ -1,4 +1,5 @@
-<?php @include_once "Modules/connection.php"; ?>
+<?php @include_once "Modules/connection.php";
+    session_unset();  ?>
 <!Doctype html>
 <html>
     <head>

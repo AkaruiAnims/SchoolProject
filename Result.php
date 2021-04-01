@@ -69,6 +69,7 @@
                 <div class="midContainer">
                 <form Method="POST" action="Product.php">
                          <table cellspacing="35" class="table">
+                         <tr>
                             <?php
                                 try{
                                 //trying to avoid exceptions on the page
@@ -84,13 +85,14 @@
                                     }
                                     
                                     while($row = $stmt->fetch()){
-                                        echo "<tr><td>";echo product_card($row['product_name']);echo"</td></tr>";
+                                        echo "<td>";echo product_card($row['product_name']);echo"</td>";
                                     }
                                     }
                                 } catch(PDOException $e) {
                                 echo "Error: " . $e->getMessage();
                                 }
                             ?>
+                            </tr>
                          </table>
                     </form>  
                 </div>

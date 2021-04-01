@@ -12,7 +12,14 @@
     <body>
         <!-- navigation -->
            <?php include_once ("Modules/Navmod_client.php");?>
-
+            <!-- Ordering -->
+            <div class="main container">
+                <h1>Besteld</h1>
+                <a href="Index.php">Terug</a>
+            </div>
+            <?php
+            unset($_SESSION['Cart']);
+            ?>
         <!-- Footer -->
         <?php include_once ("Modules/Footer.php");?>
     </body>

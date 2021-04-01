@@ -12,7 +12,22 @@
     <body>
         <!-- navigation -->
            <?php include_once ("Modules/Navmod_admin.php");?>
-            
+            <!-- Sessions monitor-->
+            <div class="Admin main container">
+                <table class="table">
+                            <?php    
+                            $query = "SELECT * FROM users";
+                                        $stmt = $connection->prepare($query);
+                                        $stmt->execute();
+                                        $row = $stmt->fetch();
+                                $sessions = $row['total_sessions'];
+                                echo "<tr><th>Total sessions: ".$sessions."</th></tr>";
+                                for($i = 0; $i < $row['total_sessions']; $i++){
+                                    echo "<tr><td class="."cartProd container "."><img src="."Images/PlaceHolder.png"." class="."cardButton prodimg".">"; echo $row['username'][$i]; echo "</td></tr>";
+                                }                            
+                            ?>
+                         </table>     
+            </div>
         <!-- Footer -->
         <?php include_once ("Modules/Footer.php");?>
     </body>

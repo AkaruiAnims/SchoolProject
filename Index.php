@@ -21,17 +21,17 @@
         <div class="container">
             <div class="topContainer flex">
                 <div class="productCard">
-                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
+                    <input type="submit" name="Product" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum         <hr>
                     <div class="proddesc"> Lorem</div>         
                 </div>
                 <div class="productCard">
-                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
+                    <input type="submit" name="Product" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum    <hr>
                     <div class="proddesc"> Lorem</div>           
                 </div>
                 <div class="productCard">
-                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
+                    <input type="submit" name="Product" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum         <hr>       
                     <div class="proddesc"> Lorem</div>  
                 </div>
@@ -39,17 +39,17 @@
 
             <div class="lowerContainer flex">
                 <div class="productCard">
-                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
+                    <input type="submit" name="Product" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum                <hr>
                     <div class="proddesc"> Lorem</div>  
                 </div>
                 <div class="productCard">
-                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
+                    <input type="submit" name="Product" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum              <hr>
                     <div class="proddesc"> Lorem</div>    
                 </div>
                 <div class="productCard">
-                    <input type="submit" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
+                    <input type="submit" name="Product" value="Lorem" class="cardButton prodimg" src="Images/PlaceHolder.png">
                     Lorem Ipsum                <hr>
                     <div class="proddesc"> Lorem</div>  
                 </div>
